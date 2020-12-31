@@ -1,0 +1,265 @@
+@media(max-width: 1350px){
+    .all, aside{
+        background-image: none;
+    }
+    
+    .element{
+        background-color: gainsboro;
+        margin-bottom: 5px;
+        margin-right:  auto;
+        margin-left: auto;
+        width: 80%;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    
+    .aside-content{
+        margin: 0 auto;    
+    }
+    .aside{
+        padding-bottom: 30px;
+        height: auto;
+        padding-top: 30px;    
+    }
+    
+}
+
+@media(max-width: 1200px){
+    .footer_wrap{
+        width: 90%;
+    }
+  
+}
+
+@media(max-width: 1130px){
+    .news_inner{
+        display: block;
+        margin: 10px auto;
+    }
+    .news_item{
+        margin: 0 auto;
+        width: 70%;
+    }
+    .news_item:hover{
+        transform: scale(1);
+    }    
+    
+    .news_wrap{
+        width: 60%;
+    }
+   
+}
+
+@media(max-width: 1000px){
+    .wrap{
+        margin-left: 160px;
+    }
+    
+    .container-title, .container-text{
+        color: black;
+    }
+    
+    .container-text{
+        font-weight: 600;
+    }
+    .new-container{
+        height: 370px;
+    }
+    .container-elem{
+        margin-top: 50px;
+    }
+
+}
+
+@media(max-width: 900px){
+    
+    .menu{
+        display: none;
+        position: absolute;
+        background-color: transparent;
+        width: 100%;
+        left: 0;
+        top: 55px;
+    }
+    .menu_item{
+        height: 50px;
+        display: block;
+        line-height: 30px;
+        margin-right: 0px;
+        background-color: dodgerblue;
+    }
+    
+    .menu_item a{
+        color: #fff;
+    }
+    
+    .menu_item a:hover{
+        border-bottom: none;
+        color: lightcyan;
+    }    
+
+    .menu_item_logo{
+        display: flex;
+        align-items: center;
+    }
+    
+    .header_logo{
+        margin:5px;
+        
+    }
+    
+    .header_button{
+        margin-right: 8px;
+    }
+    
+    .menu_logo{
+        display: block;
+        height: 30px;
+        margin-right: 15px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+    
+    .wrap{
+        margin-left: 100px;
+    }
+    
+    .news_wrap{
+        width: 95%;
+    }
+  
+}
+
+@media(max-width: 800px){
+    .wrap{
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding-top:30px;
+        width: 100%;
+    }    
+    .container_subtitle{
+        margin: 0 auto;
+    }
+
+    .main_list ul li{
+        margin-bottom: 15px;
+        max-width: 400px;
+        width: 100%;
+    }
+    .main_list ul{
+        width: 80%;
+    }
+    .main_list {
+        margin: 0;
+    }
+    
+    .title{
+        margin-bottom: 45px;
+    }   
+    
+}
+
+@media(max-width: 700px){
+    .about{
+        margin-right: 75px;
+    }
+    
+    .inputs{
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+    }
+    
+    .inputs input{
+        margin-bottom: 5px;
+        padding-left: 5px;
+    }  
+    
+    .textarea{
+        width: 80%;
+    }
+    
+    .footer_wrap{
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .about1, .about2, .about3 {
+        margin-bottom: 15px;
+    }
+    
+    .about4{
+        margin: 0 auto;
+    }
+    .foot_title{
+        margin-bottom: 0px;
+    }
+}
+
+@media(max-width: 600px){
+    .about{
+        margin-right: 25px;
+    }
+    
+    .slick-slider{
+        width: 100%;
+        margin: 0 auto;
+        margin-right: 5px;
+    }
+    
+    .slick-dots{
+        margin-top: 38px
+    }
+    
+    .container-elem{
+        margin-right: 0;
+        text-align: center;
+    }
+    
+    .container-text{
+        float: none;
+        margin: 0 auto;
+        width: auto;
+        margin-bottom: 20px;
+    }
+    
+    .new-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .news_item img{
+        width: 85%;
+    }
+    
+    .news_item{
+        width: 95%;
+    }    
+}
+
+
+@media(max-width: 400px){
+    .main_list ul li div{
+        font-size: 16px;
+        width: 250px;    
+    }
+    .main_list{
+        margin-left: 10px;
+    }
+   
+}
+
+
+@media(max-width: 350px){
+    .header_button{
+        width: 100px;
+    }
+    
+    .header_logo{
+        width: 125px;
+    }
+   
+}
